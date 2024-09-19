@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS Vivobook"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-12 09:57:56 AM"/>
+        <attribute name="created" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjswOTo1NTozOCBBTTsyOTQ2"/>
+        <attribute name="edited" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjswOTo1Nzo1NiBBTTsxOzMwNTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, r" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="0"/>
+            <assign variable="n" expression="5"/>
+            <for variable="i" start="n" end="0" direction="dec" step="1">
+                <output expression="i" newline="True"/>
+                <assign variable="r" expression="r+i"/>
+            </for>
+            <output expression="&quot;Yakuniy javob: &quot; &amp; r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

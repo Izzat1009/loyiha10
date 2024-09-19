@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS Vivobook"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-12 10:29:36 AM"/>
+        <attribute name="created" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjsxMDoyMDoxNiBBTTsyOTI2"/>
+        <attribute name="edited" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjsxMDoyOTozNiBBTTsxOzMwNDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n, r" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="0"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <if expression="i % 2 == 0">
+                    <then>
+                        <output expression="&quot;Juft: &quot; &amp; i" newline="True"/>
+                        <assign variable="r" expression="r+i"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Toq: &quot; &amp; i" newline="True"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;Juft sonlar yeg'indisi: &quot; &amp; r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

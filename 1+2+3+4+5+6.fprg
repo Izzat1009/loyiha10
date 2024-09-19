@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS Vivobook"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-12 09:31:49 AM"/>
+        <attribute name="created" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjswOToyMjozMiBBTTsyOTM0"/>
+        <attribute name="edited" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjswOTozMTo0OSBBTTsxOzMwNTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="0"/>
+            <for variable="i" start="0" end="n" direction="inc" step="1">
+                <assign variable="r" expression="r+i"/>
+            </for>
+            <output expression="&quot;Javob: &quot; &amp; r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

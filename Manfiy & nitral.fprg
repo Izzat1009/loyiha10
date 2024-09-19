@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS Vivobook"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-12 08:42:25 AM"/>
+        <attribute name="created" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjswODozMzo0OSBBTTsyOTQz"/>
+        <attribute name="edited" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMjswODo0MjoyNSBBTTsxOzMwNDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n &gt; 0 || n == 1">
+                <then>
+                    <output expression="&quot;Musbat&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n == 0">
+                        <then>
+                            <output expression="&quot;nitral&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;manfiy&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
